@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class chan_cjs : MonoBehaviour
 {
-    Animator anim;
+    Animator anim; //에니메이터 사용
     void Start()
     {
         anim = GetComponent<Animator>();
