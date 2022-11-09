@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class zombieWalkcjs : MonoBehaviour
 {
-    Animation anim;
+    Animation anim; // 에니메이션 사용
     void Start()
     {
         anim = GetComponent<Animation>();
